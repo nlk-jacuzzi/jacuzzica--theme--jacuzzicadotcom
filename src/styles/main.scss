@@ -1,0 +1,17 @@
+@import 'bourbon';
+@import 'grid-settings';
+@import 'neat';
+
+@import 'variables';
+@import 'layout';
+
+// ui styles
+@import 'button';
+
+// layout areas
+@import 'partials/header';
+@import 'partials/footer';
+@import 'partials/sidebar';
+
+// vendor specific styles
+@import 'vendor/magnificpopup';

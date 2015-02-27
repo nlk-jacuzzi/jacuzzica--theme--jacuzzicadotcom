@@ -1,0 +1,30 @@
+.button {
+    background:#cd9601;
+    border-radius:5px;
+    padding:.8em 2em;
+    color:#000;
+    text-transform:uppercase;
+    border:1px solid #cd9601;
+    display:inline-block;
+    line-height:1.5em;
+    font-size:.9em;
+    letter-spacing:.03em;
+    @include transition(all .4s ease);
+
+    &:hover, &.hover {
+        background:lighten(#cd9601, 15%);
+        color:inherit;
+    }
+
+    &.trans {
+        background:transparent;
+        color:#cd9601;
+        padding:.5em 1em;
+        text-transform:none;
+
+        &:hover {
+            background:#cd9601;
+            color:#000;
+        }
+    }
+}

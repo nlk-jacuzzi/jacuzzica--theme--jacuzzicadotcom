@@ -1,0 +1,16 @@
+// Neat Overrides
+///////////////////////////////////////////////////////////////////////////////
+ $column: golden-ratio(1em, 3);
+ $gutter: golden-ratio(1em, 1);
+ $grid-columns: 12;
+ $max-width: 1180px;
+
+// Neat Breakpoints
+///////////////////////////////////////////////////////////////////////////////
+$medium-screen: em(760);
+$large-screen: em(860);
+
+$medium-screen-down: max-width $medium-screen 4;
+$medium-screen-up: min-width $medium-screen 12;
+$large-screen-down: max-width $large-screen 12;
+$large-screen-up: min-width $large-screen 12;

@@ -1,0 +1,78 @@
+  body {
+    font-family:"HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  }
+  .site-branding {
+    width:180px;
+  }
+
+  .main-navigation {
+    float:right!important;
+    width:400px;
+  }
+
+  .main-navigation ul#social li a {
+    background-image:url("../../images/social-sprite-small.png")!important;
+  }
+
+  #primary {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    #primary:last-child {
+      margin-right: 0; }
+
+
+  #secondary {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    #secondary:last-child {
+      margin-right: 0; }
+
+
+  .last {
+    margin-right: 0; }
+
+  .one-half {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 48.82117%;
+  }
+
+    .one-half:last-child {
+      margin-right: 0; }
+
+  .one-third {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 31.76157%; }
+    .one-third:last-child {
+      margin-right: 0; }
+
+  .two-third {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 65.88078%; }
+    .two-third:last-child {
+      margin-right: 0; }
+
+  .one-fourth {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    .one-fourth:last-child {
+      margin-right: 0; }
+
+  .three-fourth {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    .three-fourth:last-child {
+      margin-right: 0; }

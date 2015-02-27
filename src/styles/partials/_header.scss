@@ -1,0 +1,92 @@
+.site-header {
+    position:relative;
+    background:#fff;
+    position:fixed;
+    width:100%;
+    top:0;
+    height:100px;
+    z-index:100;
+}
+
+.admin-bar .site-header {
+    top:32px;
+}
+
+.site-header + .site-content {
+    margin-top:100px;
+    z-index:99;
+    position:relative;
+}
+
+.site-branding {
+    display:block;
+    margin:.9em 0;
+    float:left;
+
+    img {
+        display:block;
+        width:180px;
+        max-width:100%;
+    }
+
+    @include media(max-width 500px) {
+        img {
+            width:100px;
+            margin-top:14px;
+        }
+    }
+}
+
+.main-navigation {
+
+    float:right;
+
+    ul#social {
+        float:right;
+        margin:2em 0;
+        > li {
+            float:left;
+            position:relative;
+            a {
+                width:18px;
+                height:18px;
+                margin:.5em;
+                @include media(max-width 500px) {
+                    margin:0.5em .3em;
+                }
+                background-image:url(../../dist/images/social-sprite.png);
+                background-size:176px auto;
+                background-repeat:no-repeat;
+                @include transition(none);
+
+                &.icon-pinterest    {background-position:0 -21px;}
+                &.icon-facebook     {background-position:-30px -21px;}
+                &.icon-instagram    {background-position:-61px -21px;}
+                &.icon-youtube      {background-position:-94px -21px;}
+                &.icon-houzz        {background-position:-128px -21px;}
+                &.icon-twitter      {background-position:-162px -21px;}
+
+
+                &:hover {
+                    &.icon-pinterest    {background-position:0 0;}
+                    &.icon-facebook     {background-position:-30px 0;}
+                    &.icon-instagram    {background-position:-61px 0;}
+                    &.icon-youtube      {background-position:-94px 0;}
+                    &.icon-houzz        {background-position:-128px 0;}
+                    &.icon-twitter      {background-position:-162px 0;}
+                }
+            }
+        }
+    }
+}
+
+
+
+
+#content {
+    @include transition(all .8s ease);
+    &.loading {
+        opacity:0;
+        @include transform(translateY(-10px));
+    }
+}
